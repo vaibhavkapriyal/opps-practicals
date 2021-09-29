@@ -15,12 +15,9 @@ namespace second
 		return a+b;
 	}
 }
-//using namespace second;
-//using namespace first;
 int main()
 {
-	//cout<<first::add(12,15)<<"\n";
-	//cout<<second::add(12.6,15.9)<<"\n";
-	cout<<add(12,15)<<"\n";
+	cout<<first::add(12,15)<<"\n";
+	cout<<second::add(12.6,15.9)<<"\n";
 	return 0;
 }
